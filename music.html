@@ -1,0 +1,98 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="muzyka.css">
+    <title>TOP MUZYKA</title>
+ 
+</head>
+<body>
+   
+    
+    
+    <div id="container">
+
+        <div id="baner">
+            <canvas id="confetti"></canvas>
+
+            <button id="button"  role="button">Nasz Zenuś</button>
+
+            <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+            <script src="script.js"></script>
+        </div>
+        <div id="zenek"><marquee behavior="alternate" scrollamount="10ms" direction="down" height="100%"><img id="zenek_gif" src="zenek.gif" alt="zenuś"></marquee></div>
+
+        <div id="left">
+            <div id="describe">
+                <h2>Ile kosztuje Zenek na wesele?</h2>
+                <br />
+                Za występ Zenka Martyniuka czy zespołu Piękni i Młodzi należy
+                spodziewać się stawki 35 tys. złotych. Trzeba przyznać, że są to wysokie stawki, jednak obecność gwiazd podczas imprezy z pewnością zrobi wrażenie na gościach.
+            </div>
+            <div id="zdj_zenka">
+                <h2>Zdjęcia Zenusia</h2>
+                <img id="zdj1" src="zenek1.jpg" alt="ZENEK KOCHANYY" />
+                <img id="zdj2" src="zenek2.jpeg" alt="ZENEK KOCHANYYY" />
+                <img id="zdj3" src="zenek3.jpg" alt="ZENEK KOCHANYYY" />
+                <img id="zdj4" src="zenek4.jpg" alt="ZENEK KOCHANYYY" />
+            </div>
+        </div>
+        <div id="right">
+            <div id="audicion">
+                <table>
+                    <tr>
+                        <td colspan="3"><h1>Utwory znane i lubiane przez ludzi po pewnym napoju:</h1></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Gwiazda:</h2></td>
+                        <td>
+                            <audio controls="controls">
+                                <source src="gwiazda.mp3" type="audio/mp3" />
+                            </audio>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><h2>Prawdziwa Miłość to ty:</h2></td>
+                        <td>
+                            <audio controls="controls">
+                                <source src="prawdziwa miłość.mp3" type="audio/mp3" />
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h2>Przekorny los:</h2></td>
+                        <td>
+                            <audio controls="controls">
+                                <source src="przekorny los.mp3" type="audio/mp3" />
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h2>Kochana wierze w miłość: </h2></td>
+                        <td><audio controls="controls">
+                            <source src="kochana wierze.mp3" type="audio/mp3" />
+                            </audio></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="wideo_conteiner">
+                <h2 id="text">Utwór znany i lubiany przez wszytskich <br />Przez twe oczy zielone</h2>
+                
+                <video id="wideo" controls="controls">
+                    <source src="oczy zielone.mp4" type="video/mp4" />
+
+                </video>
+            </div>
+            
+        </div>
+        <div >
+    <marquee behavior="alternate" scrollamount="15ms" direction="left"><img id="young_jordan" src="young jordann.png" alt="Michał Jordan"></marquee>
+
+</div>
+    </div>
+    
+</body>
+</html>
